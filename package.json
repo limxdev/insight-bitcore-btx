@@ -1,4 +1,6 @@
 {
+  "name": "bitcore-btx",
+  "description": "Bitcore for BTX",
   "version": "8.1.0",
   "prettier": {
     "singleQuote": true
