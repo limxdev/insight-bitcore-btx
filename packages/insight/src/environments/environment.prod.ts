@@ -1,5 +1,5 @@
 import { LoggerConfig, NgxLoggerLevel } from 'ngx-logger';
-import { BCH, BTC, Chain, tBCH, tBTC, tBCX, tBTX } from '../app/types/chains';
+import { BCH, BTC, Chain, tBCH, tBTC, BTX, tBTX } from '../app/types/chains';
 
 const loggingSettings: LoggerConfig = {
   serverLoggingUrl: '/api/logs/insight',
