@@ -1,5 +1,6 @@
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import * as bitcoreLib from 'bitcore-lib';
+import * as bitcoreLibBtx from 'bitcore-lib-btx';
 import * as bitcoreLibCash from 'bitcore-lib-cash';
 import {
   ActionSheetController,

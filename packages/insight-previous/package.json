@@ -26,7 +26,7 @@
   },
   "scripts": {
     "clean": "ionic-app-scripts clean",
-    "build:prod": "ENV=prod CHAIN=BTC NETWORK=mainnet API_PREFIX=https://api.bitcore.io/api npm run ionic:build --prod",
+    "build:prod": "ENV=prod CHAIN=BTX NETWORK=mainnet API_PREFIX=http://http://51.158.182.210/api npm run ionic:build --prod",
     "serve:prod": "npm run clean && npm run build:prod && npm run serve",
     "serve": "serve www",
     "ionic:build": "ionic-app-scripts build",
@@ -50,6 +50,7 @@
     "bitcore-lib": "^8.3.0",
     "bitcore-lib-cash": "^8.3.0",
     "bitcore-lib-btx": "git://github.com/dalijolijo/bitcore-lib-btx#master",
+    "bs58": "^4.0.1",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
     "lodash": "4.17.11",

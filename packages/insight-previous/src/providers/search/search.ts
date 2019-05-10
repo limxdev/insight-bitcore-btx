@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import * as bitcoreLib from 'bitcore-lib';
-import * as bitcoreLibCash from 'bitcore-lib-cash';
 import * as bitcoreLibBtx from 'bitcore-lib-btx';
+import * as bitcoreLibCash from 'bitcore-lib-cash';
 import * as _ from 'lodash';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
