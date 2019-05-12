@@ -5,10 +5,6 @@
   },
   "type": "ionic-angular",
   "proxies": [
-    {
-      "path": "/api",
-      "proxyUrl": "http://172.21.0.13:3000/api"
-    }
   ],
   "hooks": {}
 }
